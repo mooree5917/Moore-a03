@@ -6,8 +6,29 @@
  */
 package baseline;
 
+import java.util.Scanner;
+
 public class solution28 {
     public static void main(String[] args){
+        {
+            int i,n=0,s=0;
+            {
 
+                System.out.println("Input the 5 numbers : ");
+
+            }
+            //Take in 5 numbers from the user.
+            for (i=0;i<5;i++)
+            {
+                Scanner in = new Scanner(System.in);
+                //n represents number.
+                n = in.nextInt();
+
+                //s represents sum.
+                s +=n;
+            }
+            System.out.println("The total is : " +s);
+
+        }
     }
 }
